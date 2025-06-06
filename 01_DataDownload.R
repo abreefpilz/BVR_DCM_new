@@ -8,7 +8,7 @@ pacman::p_load(tidyverse, patchwork, lubridate, akima, reshape2, pracma,
 
 #ctd data https://portal.edirepository.org/nis/codeGeneration?packageId=edi.200.15&statisticalFileType=r
 #updated 2025
-CTD <- read.csv("https://pasta.lternet.edu/package/data/eml/edi/200/15/9d741c9cced69cfd609c473ada2812b1")
+CTD <- read_csv("https://pasta.lternet.edu/package/data/eml/edi/200/15/9d741c9cced69cfd609c473ada2812b1")
 
 #flora data https://portal.edirepository.org/nis/mapbrowse?packageid=edi.272.9
 #published 2024
